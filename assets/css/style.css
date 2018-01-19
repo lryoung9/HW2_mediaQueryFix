@@ -287,6 +287,13 @@ input[type=submit] {
   #connect {
     padding: 30px;
   }
+  /*portfolio work*/
+  .work:nth-child(even) {
+    margin-right: 5%;
+  }
+  .work {
+    width: 47.5%;
+  }
 }
 
 /*Phone*/
