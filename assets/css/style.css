@@ -309,19 +309,26 @@ input[type=submit] {
       width: 50px;
       height: 50px;
     }
-
     .main-section {
       float: none;
       width: auto;
       padding: 30px;
       margin: 10px 10px 20px;
+      font-size: 85%;
+      line-height: 200%;
     }
 
     /*footer*/
     footer {
       margin-top: 10px;
     }
-
+    
+    /*Portfolio Page*/
+    .auth-image {
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
 
 /*
 Make the layout match the following screenshots:
