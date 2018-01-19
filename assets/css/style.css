@@ -247,7 +247,42 @@ input[type=submit] {
 /*Tablet*/
 /*These rules take effect when the browser's width is 768px or less*/
 @media screen and (max-width: 768px) {
-  
+  /*header*/
+  #masthead {
+    margin: 0px;
+  }
+  #logo {
+    margin-left: 20px;
+  }
+  nav {
+    margin-right: 20px;
+  }
+  /*Content*/
+  .main-section {
+    float: none;
+    width: auto;
+    max-width: none;
+    overflow: auto;
+    padding: 30px;
+    margin: 20px 20px 20px;
+    font-size: 85%;
+    line-height: 200%;
+  }
+  /*sidebar connect with me*/
+  .sidebar {
+    float: none;
+    width: auto;
+    max-width: initial;
+    padding: 10px;
+    margin: 20px;
+  }
+  .social {
+    width: 50px;
+    height: 50px;
+    }
+  #connect {
+    padding: 30px;
+  }
 }
 
 /*Phone*/
@@ -324,17 +359,9 @@ input[type=submit] {
       margin-top: 10px;
     }
     
-    /*Portfolio Page*/
+    /*Portfolio Image*/
     .auth-image {
       float: none;
       width: 100%;
       margin-bottom: 10px;
     }
-
-/*
-Make the layout match the following screenshots:
-index.html: 980px, 768px, 640px
-portfolio.html: 980px, 768px, 640px
-contact.html: 980px, 768px, 640px
-(Hint: You won't need to use exact pixels for anything other than the container)
-*/
