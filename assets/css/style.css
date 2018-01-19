@@ -312,6 +312,7 @@ input[type=submit] {
     .main-section {
       float: none;
       width: auto;
+      overflow: auto;
       padding: 30px;
       margin: 10px 10px 20px;
       font-size: 85%;
