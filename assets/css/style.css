@@ -258,6 +258,12 @@ input[type=submit] {
   .auth-image {
     width: 100%;
   }
+  .work:nth-child(even) {
+    margin-right: 0px;
+  }
+  .work {
+    width: auto;
+  }
   /*sidebar*/
   .sidebar {
     width: auto;
