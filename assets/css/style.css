@@ -257,6 +257,10 @@ input[type=submit] {
   nav {
     margin-right: 20px;
   }
+  /*Portfolio Image*/
+  .auth-image {
+    width: 50%;
+  }
   /*Content*/
   .main-section {
     float: none;
