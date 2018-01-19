@@ -241,7 +241,26 @@ input[type=submit] {
 /*Desktop*/
 /*These rules take effect when the browser's width is 980px or less*/
 @media screen and (max-width: 980px) {
-  
+  /*header*/
+  #masthead {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  nav {
+    font-size: 100%;
+    margin-top: 30px;
+  }
+  /*main content*/
+  .main-section {
+    margin-left: 14%;
+    max-width: 40%;
+  }
+  /*sidebar*/
+  .sidebar {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 14%;
+  }
 }
 
 /*Tablet*/
