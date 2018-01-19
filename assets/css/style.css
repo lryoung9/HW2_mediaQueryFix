@@ -255,6 +255,9 @@ input[type=submit] {
 /*Make the position of the header static (the default positioning) when the screen is 640px wide.*/
 @media screen and (max-width: 640px) {
   /*header*/
+  .container {
+    text-align: center;
+  }
   #logo {
     width: 100%;
     font-size: 20px;
@@ -265,14 +268,16 @@ input[type=submit] {
     position: static;
   }
   nav {
-    margin-top: 12px;
-    font-size: 12px;
+    float: none;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 0px;
   }
   nav a {
-    display: block;
-    margin-left: 0px;
-    padding-left: 0px;
+    display: inline;
     line-height: 12px;
+    margin: 0px;
+    padding: 0px 25px 0px 25px;
   }
   nav a:first-child {
   border-left: 0 none;
@@ -284,7 +289,7 @@ input[type=submit] {
     width: auto;
     max-width: initial;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
     }
     h3,
     .sidebar h2 {
